@@ -1,0 +1,53 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    font-size: 200%;
+    background-color: #dfeaf1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+}
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+img {
+	position: absolute;
+	right: 50px;
+	top: 150px;
+	
+}
+
+
+.concept_title{
+	background-color: #dfeaf1;
+	border-radius: 4px;
+	color: black;
+
+}
+
+.concept {
+	background-color: #dfeaf1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.Table_of_Contents {
+	background-color: #dfeaf1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+
+}

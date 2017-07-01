@@ -1,0 +1,117 @@
+<!DOCTYPE html>  
+
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>My notes</title>
+	<link rel="stylesheet" type="text/css" href="stage_1_project.css">
+</head>
+<body>
+	<h1>My Notes on HTML and CSS</h1>
+	
+	<div class="Table_of_Contents">
+		<h2>Table of Contents</h2>
+		<a href="http://imgur.com/Fce4eUb"><img src="http://i.imgur.com/Fce4eUb.jpg" title="source: imgur.com" /></a>
+		<ol>
+			<li><a href="#lesson_01">Essential Concepts of the Web and HTML</a>
+				<ul>
+					<li><a href="#lesson_1">How the Web Works</a></li>
+					<li><a href="#lesson_1_2">HTML</a></li>
+					<li><a href="#lesson_1_3">Tags and Elements</a></li>
+					<li><a href="#lesson_1_4">Why Computers are Stupid</a></li>
+					<li><a href="#lesson_1_5">Inline vs. Block Elements</a></li>
+				</ul>
+			</li>
+			<li class="TOC_lesson"><a href="#lesson_2">Creating a Structured Document with HTML</a>
+				<ul>
+					<li><a href="#lesson_2_1">Developer Tools</a></li>
+					<li><a href="#lesson_2_2">Text Editors</a></li>
+					<li><a href="#lesson_2_3">Boxes All The Way Down</a></li>
+					<li><a href="#lesson_2_4">Document Object Model</a></li>
+				</ul>
+			</li>
+			<li class="TOC_lesson"><a href="#Lesson_3">CSS Style</a>
+				<ul>
+					<li><a href="#lesson_3_1">CSS</a></li>
+					<li><a href="#lesson_3_2">Coding Resources</a></li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+	
+	<h3 id="heading">Essential Concepts </h3>
+		
+		<div class="lesson">
+			
+			<div class="concept" id="lesson_1">
+				<div class="concept_title">  <b>How The Web Works</b> </div>
+				<div class="concept_description">
+					<p>Basically the internet is a bunch of computers that are connected together. When you sign on your personal computer and go to facebook, what is happening is your browser sends a requests to facebooks servers (specalized computers that store and transmit information) and facebook sends it back to you. <a href="https://youtu.be/7_LPdttKXPc">This video</a> explains it well.
+					</p>
+				</div>
+			</div>
+			
+			<div class="concept" id="lesson_1_2">
+				<div class="concept_title"><b>HTML</b></div>
+				<div class="concept-description">
+					<p>HTML stands for <em>Hyper Text Markup Language</em>. This is the language browsers use to read webpages and deliver you your content. 
+					<a href="http://www.w3schools.com/html/html_intro.asp">This website</a> explains it well.</p>
+				</div>
+			</div>
+			
+			<div class="concept" id="lesson_1_3">
+				<div class="concept_title"><b>Tags and Elements</b></div>
+				<div class="concept_description"></div>
+					<p>So the way I look at it is tages are like boxes and elements are what go into the boxes. "Tags contain elements which provide instructions for how information will be processed or displayed." "A basic unit of an HTML document. The name of the element is given in the name of the tag, and specifies the meaning associated with a block of text. Some elements are empty since they don't effect a block of text. Elements that have contents are also called containers, i.e., they contain attributes." 
+					<a href="http://literacy.kent.edu/Midwest/HTML/htmltags.html">Source</a>.</p>
+			</div>
+			
+			<div class="concept" id="lesson_1_4">
+				<div class="concept_title"><b>Why Computers are stupid</b></div>
+				<div class="concept_description"></div>
+					<p>Computers take things <em>literally</em>. They can't parse through natural language like humans can, and interpret ambiguous information correctly. You have to tell a computer to do everything. Every little automation it does on its own was programmed by a human. On their own without the most specific directions, they are useless pieces of metal and plastic. This is where <a href="https://en.wikipedia.org/wiki/Programming_language">programming langauges</a> come in. They allow humans to get computers to do things.</p>
+			</div>
+
+			<div class="concept" id="lesson_1_5">
+				<div class="concept_title"><b>Inline Vs. Block</b></div>
+					<div class="concept_description">
+						<p>From <a href="http://www.w3schools.com/html/html_blocks.asp">W3schools.com</a>. A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+						<p><a href="http://www.w3schools.com/html/html_blocks.asp">Inline</a> elements don't start on a new line. The can be as wide as neccessary. div, a, span, and img are some examples of inline elements.</p></div>
+	</div>
+	<h4 id="lesson_2">Creating Structure</h4>
+		<div class="lesson">
+			<div class="concept" id="lesson_2_1">
+				<div class="concept_title"><b>Developer Tools</b>
+					<div class="concept_descrption"><p>Go to Google and on a mac press alt+cmd+I and the source code for the webpage will appear and you can play with it. It is very helpful. It allows you to test your code in real time.</p></div>
+				</div>
+			</div>
+			<div class="concept" id="lesson_2_2">
+				<div class="concept_title"><b>Text Editors</b></div>
+					<div class="content_description"><p><a href="http://blog.livecoding.tv/2016/05/23/10-best-text-editors-programming-2016/">Text editors</a> are a great way to write code. They help you organize and assist is many ways. They make coding life much easier.</p></div>
+				</div>
+			</div>
+			<div class="concept" id="lesson_2_3">
+				<div class="concept_title"><b>Boxes Everywhere</b></div>
+					<div class="concept_description">
+					<p>Webpages are boxes. There is one big box which holds other smaller boxes, which hold other smaller boxes, etc. <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345402/modules/383612889175460/lessons/4137489485/concepts/26088085980923#">This video</a> from Udacity is great.<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Boxes"> This site</a> is also helpful. </p></div>
+			</div>
+				</div>
+			<div class="concept" id="lesson_2_4">	
+				<div class="concept_title"><b>Document Object Model</b></div>
+					<div class="content_description"><p>Document Object Model or DOM is a "cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree." <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345402/modules/383612889175460/lessons/4137489485/concepts/25961388150923#">This video</a> explains it well.</p></div>
+			</div>
+		
+	<h5 id="lesson_3">Cascading Style Sheets</h5>
+		<div class="lesson">
+			<div class="concept" id="lesson_3_1">
+				<div class="concept_title"><b>CSS</b></div>
+					<div class="concept_description"><p>CSS stands for cascading style sheets. Essentially, it is used to dictate how HTML is presented.<a href="http://www.w3schools.com/css/css_intro.asp">This website</a> explains it well.</p></div>
+			</div>
+			<div class="concept" id="lesson_3_2">
+				<div class="concept_title"><b>Coding Resources</b></div>
+					<div class="content_description"><p>There are some great free resources on the web to learn to code.</p><p><a href="https://www.udacity.com">Udacity</a> is a fantastic resource. They have classes that range from beginning intro level to advanced and very specific subjects</p><p><a href="https://www.codecademy.com">Codeacademy</a> is another good resource.</p>Also, <a href="http://www.w3schools.com">w3schools</a>. It teaches webbased development, i.e. HTML, CSS, Javascript.<p></p></div>
+			</div>
+		</div>
+</body>
+</html>
